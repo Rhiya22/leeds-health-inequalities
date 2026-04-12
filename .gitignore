@@ -1,0 +1,18 @@
+# Large data file - download from gov.uk (link in README)
+File_7_*.csv
+
+# Generated outputs - recreated by running notebooks
+output/*.csv
+output/*.txt
+output/*.png
+output/*.html
+output/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
